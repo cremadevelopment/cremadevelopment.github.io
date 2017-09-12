@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Crema
-subtitle: Software Consulants that take pride in what they do because they love it.
+subtitle: Software Consultants that take pride in what they do because they love it.
 ---
 
 ## <info@cremadevelopment.com>
