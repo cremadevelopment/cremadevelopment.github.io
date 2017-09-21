@@ -7,11 +7,8 @@
 
         <div id="wrapper">
 
-            <div id="header">
-                [BUTTONS]
-                [LOGO]
-                [NAV_MAIN]
-            </div>
+            {% include header.html %}
+            {% include slider.html %}
  
             <section>
                 [SECTION_1]
@@ -22,14 +19,9 @@
             </section>
  
         </div>
-  
- 
-        <!-- FOOTER -->
-        <footer id="footer">
-            Footer Here!
-        </footer>
-        <!-- /FOOTER -->
- 
+
+        {% include footer.html %}
+
         {% include footer_javascript.html %}
  
     </body>
