@@ -1,18 +1,19 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Crema
+subtitle: Thin nutty brown foam on a well crafted espresso shot
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Crema development builds client relationships and custom software with these prinicples:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- Agile methodologies
+- Easily maintainable code 
+- Training your development staff
+- Implement with best practices
+- Recent and relevant technologies
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### What we love to do
+Crema is focused on rising to the top. We are professional, experienced consultants with the ability to develop and manage your projects from tip to tail. We use our `experience` and `passion` to develop quality solutions for you, our clients, that not only meet your needs, but help enhance in-house resources. Our goals are to operate as a part of your team and create sustainable solutions to better your business.
 
+We take pride in the craftsmanship of our work. Our goal is to write elegant code that is focused on client satisfaction with comprehensive solutions that meet business objectives.
 
-[jekyll-organization]: https://github.com/jekyll
