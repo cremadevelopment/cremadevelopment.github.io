@@ -487,9 +487,6 @@ section.dark-2 .property-list-opt>.property-list-btn>a.active {
 */
 div.property-item-list>div {
 	margin-bottom:30px;
-	width: 100%;
-}
-div.property-item-list>div.col-xs-12 {
 }
 div.property-item-list>div.col-lg-2:nth-child(6n+1),
 div.property-item-list>div.col-md-2:nth-child(6n+1) {

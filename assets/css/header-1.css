@@ -1,6 +1,6 @@
 #topMain>li>a {
 	height:96px;
-	line-height:96px;
+	line-height:76px;
 }
 #topMain.nav-pills>li>a {
 	color:#1F262D;
@@ -28,13 +28,12 @@
 	content: "\f107";
 	position: absolute;
 	top: 50%;
-	right: 17px;
+	right: 10px;
 	margin: -5px 0 0;
 	font-family: FontAwesome;
 	font-size: 12px;
 	opacity: .3;
 	line-height: 1em;
-	border:0;
 
 	-webkit-transition: -webkit-transform .2s ease-in;
 	-moz-transition: -moz-transform .2s ease-in;

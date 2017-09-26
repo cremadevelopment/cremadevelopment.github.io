@@ -23,10 +23,10 @@ ul>li>i {
 		   left: auto;
 	}
 
-img.float-left {
+img.pull-left {
   margin: 0 0 10px 20px;
 }
-img.float-right {
+img.pull-right {
   margin: 0 20px 10px 0;
 }
 
@@ -123,6 +123,7 @@ img.float-right {
 		left:100%;
 		right: auto;
 	}
+
 
 	/*
 		Menu Vertical
@@ -230,11 +231,11 @@ img.float-right {
 	}
 
 	/* Featured OWL Carousel */
-	.owl-carousel.featured .thumbnail.float-left {
+	.owl-carousel.featured .thumbnail.pull-left {
 		margin-right:auto;
 		margin-left:20px;
 	}
-	.owl-carousel.featured .thumbnail.float-right {
+	.owl-carousel.featured .thumbnail.pull-right {
 		margin-left:auto;
 		margin-right:20px;
 	}
@@ -388,14 +389,6 @@ img.float-right {
 	padding-right: 23px;
 }
 
-#topMain.nav-pills>li>a.dropdown-toggle:after {
-    right: auto;
-    left: 17px;
-}
-#topMain.nav-pills>li>a.dropdown-toggle {
-	padding-left: 25px;
-	padding-right: 15px;
-}
 
 /**	Ribbon [essentials.css]
 *************************************************** **/
@@ -615,14 +608,14 @@ section.dark .timeline.timeline-inverse>.timeline-hline {
 	margin-left: 10px;
 }
 
-	.comment-list .card .card-heading.right {
+	.comment-list .panel .panel-heading.right {
 		left:16px;
 		right:auto;
 	}
 
 	@media (min-width: 768px) {
-		.comment-list .card.arrow:before,
-		.comment-list .card.arrow:after {
+		.comment-list .panel.arrow:before,
+		.comment-list .panel.arrow:after {
 			display:none;
 		}
 	}
@@ -951,11 +944,11 @@ input.colorpicker + .sp-replacer {
 
 /**	[Shortcode] Labels & Badges
 *************************************************** **/
-.badge.badge-square.float-left {
+.label.label-square.pull-left {
 	margin-left:10px;
 	margin-right:0;
 }
-.badge.badge-square.float-right {
+.label.label-square.pull-right {
 	margin-left:0;
 	margin-right:10px;
 }
@@ -1168,11 +1161,11 @@ blockquote.quote:before {
 		text-align:left;
 	}
 
-blockquote.float-left {
+blockquote.pull-left {
 	padding-left: 20px;
 	padding-bottom: 10px;
 }
-blockquote.float-right {
+blockquote.pull-right {
 	padding-right: 20px;
 	padding-bottom: 10px;
 }
@@ -1263,7 +1256,7 @@ div.owl-carousel.owl-mini-testimonial .owl-controls {
   margin: 10px 20px 0 0;
 }
 
-.sky-form, .sky-form .badge {
+.sky-form, .sky-form .label {
 	text-align:right;
 }
 

@@ -687,11 +687,7 @@ div.side-nav ul.list-group-bordered>li>a {
     margin-right:10px;
 }
 
-button.product-add-cart,
-.btn.product-add-cart {
-    font-size: 13px;
-    padding: 12px !important;
-}
+
 
 /* QTY DROP DOWN */
 ul#product-qty-dd {
@@ -746,12 +742,6 @@ button.product-size-dd .caret {
 }
 
 /* COLOR DROP DOWN */
-.btn-group>.dropdown-toggle:after {
-    position: absolute;
-    right:6px;
-    top:18px;
-}
-
 ul#product-color-dd {
     margin-top:-1px;
     min-width:50px;
@@ -788,8 +778,8 @@ button.product-color-dd>.tag {
     width: 20px;
     margin: 0;
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 7px;
+    left: 7px;
 }
 .product-opt-color>ul>li {
     padding:0 1px !important;

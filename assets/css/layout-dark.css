@@ -261,10 +261,10 @@ section.alternate .timeline .timeline-entry {
 	border-color:#666;
 	background-color:#666;
 }
-.comment-list .card.arrow.left:after {
+.comment-list .panel.arrow.left:after {
 		border-right-color: #212121;
 }
-.comment-list .card.arrow.right:after {
+.comment-list .panel.arrow.right:after {
 		border-left-color: #212121;
 }
 
@@ -339,18 +339,18 @@ section.dark .border-bottom-3 {
 
 
 .nav-tabs.nav-stacked>li>a,
-.nav-tabs.nav-stacked>li>a.active,
+.nav-tabs.nav-stacked>li.active>a,
 div.tab-content.tab-stacked {
 	background-color:rgba(255,255,255,0.1);
 }
 div.tab-content.tab-stacked.nav-alternate {
 	background-color:transparent;
 }
-.nav-tabs.nav-stacked>li>a.active {
+.nav-tabs.nav-stacked>li.active>a {
 	background-color:rgba(255,255,255,0.3);
 }
 .nav-tabs.nav-stacked>li>a,
-.nav-tabs.nav-stacked>li>a.active {
+.nav-tabs.nav-stacked>li.active>a {
 	color:#fff !important; 
 }
 
@@ -1176,8 +1176,8 @@ section .nav-pills>li.active>a {
 	background-color:rgba(255,255,255,0.3) !important;
 }
 
-a.badge,
-.badge {
+a.label,
+.label {
 	color:#fff;
 }
 section .nav-pills>li>a:hover, 
@@ -1191,29 +1191,29 @@ section .nav-pills>li.active>a:focus {
 
 /**	[Shortcode] Panels
 *************************************************** **/
-.card  {
+.panel  {
 	background-color:#212121;
 	border-color:#666;
 }
-	.card .card-heading,
-	.card .card-heading h2 {
+	.panel .panel-heading,
+	.panel .panel-heading h2 {
 		color:#111 !important;
 	}
-	.card .card-heading.card-heading-transparent,
-	.card .card-heading.card-heading-transparent h2 {
+	.panel .panel-heading.panel-heading-transparent,
+	.panel .panel-heading.panel-heading-transparent h2 {
 		color:#eaeaea !important;
 	}
-	.card  .btn {
+	.panel  .btn {
 		color:#fff!important;
 	}
-.card-default>.card-heading {
+.panel-default>.panel-heading {
 	border-color:#666;
 	background-color:transparent;
 }
-.card-default>.card-heading h2 {
+.panel-default>.panel-heading h2 {
 	color:#fff !important;
 }
-.card-footer {
+.panel-footer {
 	border-top-color:#666;
 	background-color:#313131;
 }
@@ -1224,10 +1224,10 @@ section .nav-pills>li.active>a:focus {
 	.table>thead>tr>th {
 		border-bottom-color:#666;
 	}
-	.card>.card-body+.table, 
-	.card>.card-body+.table-responsive, 
-	.card>.table+.card-body, 
-	.card>.table-responsive+.card-body,
+	.panel>.panel-body+.table, 
+	.panel>.panel-body+.table-responsive, 
+	.panel>.table+.panel-body, 
+	.panel>.table-responsive+.panel-body,
 	.table>tbody>tr>td, 
 	.table>tbody>tr>th, 
 	.table>tfoot>tr>td, 
@@ -1296,9 +1296,9 @@ section .nav-pills>li.active>a:focus {
 .nav-tabs.nav-button-tabs>li>a {
 	color:#fff !important;
 }
-.nav-tabs>li>a.active, 
-.nav-tabs>li>a.active:focus, 
-.nav-tabs>li>a.active:hover {
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
 	color:#ddd;
 	background-color:#555;
 	border-color:#555;

@@ -8,7 +8,7 @@
 
  /** CUSTOM : FORM ELEMENTS
  *************************** **/
-.btn:not(.btn-sm):not(.btn-sm):not(.btn-md):not(.btn-lg):not(.btn-xlg):not(.btn-reveal):not(.btn-3d):not(.btn-social):not(.btn-v1) {
+.btn:not(.btn-xs):not(.btn-sm):not(.btn-md):not(.btn-lg):not(.btn-xlg):not(.btn-reveal):not(.btn-3d):not(.btn-social):not(.btn-v1) {
 	height:auto;
 	padding: 14px 20px;
 }

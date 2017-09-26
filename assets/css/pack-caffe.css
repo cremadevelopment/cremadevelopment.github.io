@@ -3,6 +3,7 @@
 	USED BY:	pack-caffe-*.html
  **************************************************************** **/
 /* menu sidebar */
+.navbar-header,
 body.menu-vertical #mainMenu.sidebar-vertical.sidebar-dark {
 	background-color: #292c30 !important;
 }

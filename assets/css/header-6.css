@@ -11,8 +11,8 @@
     border-bottom: rgba(0, 0, 0, 0.05) 1px solid;
 }
 #header hr {
-	background: none;
-	border-top: 1px solid rgba(0,0,0,.1);
+    background: none;
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -133,9 +133,9 @@
     #header.header-light a {
         color: #121212;
     }
-	#header.header-light .dropdown-menu a:not(.active):not(.btn):hover {
-		background-color: rgba(0,0,0,0.05);
-	}
+    #header.header-light .dropdown-menu a:not(.active):not(.btn):hover {
+        background-color: rgba(0,0,0,0.05);
+    }
 
 /* mobile nav toggle */
     #header.header-light .nav-toggle {
@@ -153,20 +153,20 @@
     color: #ffffff;
     background-color: #404040 !important;
 }
-	#header.header-dark .dropdown-menu,
+    #header.header-dark .dropdown-menu,
     #header.header-dark a {
         color: #ffffff !important;
     }
-	#header.header-dark .dropdown-menu,
-	#header.header-dark nav.main-nav.main-nav-toggle .main-nav-submenu {
-		background-color: #484848 !important;
-	}
-	#header.header-dark .dropdown-menu a:not(.active):not(.btn):hover {
-		background-color: rgba(0,0,0,0.09);
-	}
+    #header.header-dark .dropdown-menu,
+    #header.header-dark nav.main-nav.main-nav-toggle .main-nav-submenu {
+        background-color: #484848 !important;
+    }
+    #header.header-dark .dropdown-menu a:not(.active):not(.btn):hover {
+        background-color: rgba(0,0,0,0.09);
+    }
     #header.header-dark nav.main-nav>div>ul>li:hover,
     #header.header-dark nav.main-nav>div>ul>li.active {
-    	background-color: rgba(0,0,0,0.03) !important;
+        background-color: rgba(0,0,0,0.03) !important;
     }
     /* mobile nav toggle */
     #header.header-dark .nav-toggle {
@@ -191,12 +191,12 @@
     position: absolute;
     width: 100%;
 }
-	#header.header-transparent .dropdown-menu,
+    #header.header-transparent .dropdown-menu,
     #header.header-transparent a {
         color: #333333;
     }
     #header.header-transparent ul.header-buttons>li>a {
-    	color: #ffffff;
+        color: #ffffff;
     }
 
     /* mobile nav toggle */
@@ -216,8 +216,8 @@
     }
 
     #header.header-transparent+.layout-top-ads {
-    	margin-top:0;
-    	padding-top: 60px;
+        margin-top:0;
+        padding-top: 60px;
     }
 
 
@@ -399,8 +399,8 @@
         color: #ccc;
     }
 #header ul.header-buttons>li>.dropdown-menu .btn {
-	color: #fff;
-	line-height: 18px;
+    color: #fff;
+    line-height: 18px;
 }
 
 
@@ -435,11 +435,11 @@
     white-space: nowrap;
     overflow: hidden;
 }
-	#header ul.header-buttons>li>.dropdown-menu>a.active {
-	    color: #fff;
-	    text-decoration: none;
-	    background-color: #0275d8;
-	}
+    #header ul.header-buttons>li>.dropdown-menu>a.active {
+        color: #fff;
+        text-decoration: none;
+        background-color: #0275d8;
+    }
 #header ul.header-buttons>li>.dropdown-menu>a.dropdown-item:before {
     content: "\f105";
     font: normal normal normal 14px/1 'FontAwesome';
@@ -656,15 +656,15 @@ nav.main-nav>div>ul .main-nav-submenu>h3,
 nav.main-nav>div>ul .main-nav-submenu>h4,
 nav.main-nav>div>ul .main-nav-submenu>h5,
 nav.main-nav>div>ul .main-nav-submenu>h6 {
-	margin:15px 15px 0 15px;
-	font-size: 15px;
-	font-weight: 400;
+    margin:15px 15px 0 15px;
+    font-size: 15px;
+    font-weight: 400;
 }
 nav.main-nav>div>ul .main-nav-submenu>h3>i,
 nav.main-nav>div>ul .main-nav-submenu>h4>i,
 nav.main-nav>div>ul .main-nav-submenu>h5>i,
 nav.main-nav>div>ul .main-nav-submenu>h6>i {
-	margin-right: 8px;
+    margin-right: 8px;
 }
 nav.main-nav>div>ul .main-nav-submenu>ul,
 nav.main-nav>div>ul .main-nav-submenu div.row>div>ul {
@@ -680,11 +680,11 @@ nav.main-nav>div>ul .main-nav-submenu div.row>div>ul {
     }
     nav.main-nav>div>ul .main-nav-submenu>ul li>a:hover,
     nav.main-nav>div>ul .main-nav-submenu div.row>div>ul>li>a:hover {
-    	text-decoration: underline;
+        text-decoration: underline;
     }
     nav.main-nav>div>ul a>strong,
     nav.main-nav>div>ul a>b {
-    	font-weight: 600;
+        font-weight: 600;
     }
     nav.main-nav>div>ul .main-nav-submenu div.row>div>ul>li:first-child>a {
         font-weight:600;
@@ -698,7 +698,7 @@ nav.main-nav>div>ul .main-nav-submenu div.row>div>ul {
         margin-top:3px;
     }
     nav.main-nav>div>ul .main-nav-submenu>ul li>hr {
-    	margin: 8px 0;
+        margin: 8px 0;
     }
 
 nav.main-nav>div>ul .main-nav-submenu .btn,
@@ -802,9 +802,9 @@ nav.main-nav>.main-nav-mobile-header {
     }
 
 @media only screen and (min-width: 769px) {
-	nav.main-nav>.main-nav-mobile-header {
-		display: none;
-	}
+    nav.main-nav>.main-nav-mobile-header {
+        display: none;
+    }
 }
 
 

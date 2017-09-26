@@ -72,8 +72,8 @@
 			// Construct the nav bar
 			var more = '<span class="ellipse more">...</span>';
 			var less = '<span class="ellipse less">...</span>';
-			var first = !options.show_first_last ? '' : '<a class="page-link first_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_first + '</a>';
-			var last = !options.show_first_last ? '' : '<a class="page-link last_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_last + '</a>';
+			var first = !options.show_first_last ? '' : '<a class="first_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_first + '</a>';
+			var last = !options.show_first_last ? '' : '<a class="last_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_last + '</a>';
 
 			var navigation_html = "";
 
@@ -86,16 +86,16 @@
 					navigation_html += last;
 					break;
 				case "next":
-					navigation_html += '<a class="page-link next_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_next + '</a>';
+					navigation_html += '<a class="next_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_next + '</a>';
 					break;
 				case "prev":
-					navigation_html += '<a class="page-link previous_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_prev + '</a>';
+					navigation_html += '<a class="previous_link ' + jquery_ui_default_class + '" href="">' + options.nav_label_prev + '</a>';
 					break;
 				case "num":
 					navigation_html += less;
 					var current_link = 0;
 					while (number_of_pages > current_link) {
-						navigation_html += '<a class="page-link page_link ' + jquery_ui_default_class + '" href="" longdesc="' + current_link + '">' + (current_link + 1) + '</a>';
+						navigation_html += '<a class="page_link ' + jquery_ui_default_class + '" href="" longdesc="' + current_link + '">' + (current_link + 1) + '</a>';
 						current_link++;
 					}
 					navigation_html += more;

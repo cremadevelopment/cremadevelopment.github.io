@@ -1,6 +1,6 @@
 #topMain>li>a {
 	height:96px;
-	line-height:96px;
+	line-height:76px;
 }
 #topMain.nav-pills>li {
 	margin-left:10px !important;
@@ -13,13 +13,13 @@
 #topMain>li>a>span.topMain-icon {
 	padding:0 10px 0 10px;
 	display:block;
-	padding-top:20px;
+	margin-top:15px;
 }
 	#header.fixed #topMain>li>a>span.topMain-icon {
 		padding:0 15px;
 	}
 	#header.fixed #topMain>li>a>span.topMain-icon {
-		padding-top:20px;
+		margin-top:13px;
 	}
 
 #topMain.nav-pills>li>a {
