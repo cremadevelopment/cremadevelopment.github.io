@@ -1,9 +1,22 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-<div class="intro-header"></div>
+    {% include head.html %}
 
-<div role="main" class="container">
-  {{ content }}
-</div>
+    <body class="smoothscroll enable-animation">
+
+        <div id="wrapper">
+
+            {% include header.html %}
+            {% include slider.html %}
+            {% include we_are_crema.html %}
+            {% include services.html %}
+
+        </div>
+
+        {% include footer.html %}
+
+        {% include footer_javascript.html %}
+
+    </body>
+</html>
