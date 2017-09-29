@@ -6,10 +6,11 @@ tags:
 - elastic
 - search
 - docker
+excerpt_separator: <!--more-->
 ---
 
 The other day I was at a workshop pre-event for [.Net Fringe](http://dotnetfringe.org) on using [elasticsearch](https://www.elastic.co). The presenters handed out preloaded USB sticks with the things needed for the workshop. As I obtained one of these and pulled it to my machine I dug through the files. We were instructed to unzip a folder and run a .bat file to get elastic search up and running. Easy enough, right? I cracked the zip and did as instructed but and an error occurred. The instructor told me that they had never seen that error before, and directed me to an msi. I thought for a moment...and was hesitant...as I keep a relatively clean machine. 
-
+<!--more-->
 From there I jumped out to hub.docker.com and found the elasticsearch image **but don't use that one**... The first word in the description, if you read it, is *Deprecated*. In the first part of it you will also find a link to the [elastic.co docker repository](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html) where you can get the url to pull the new official elasticsearch docker image.
 
 ```docker pull docker.elastic.co/elasticsearch/elasticsearch:5.4.1```
