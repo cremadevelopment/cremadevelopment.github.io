@@ -1,4 +1,4 @@
-<section class="page-header page-header parallax parallax-3" style="background-image:url('assets/images/pictures/27-min.jpg')">
+<section class="page-header page-header parallax parallax-3" style="background-image:url('{{ "/assets/images/pictures/27-min.jpg" | prepend: site.baseurl }}')">
     <div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 
     <div class="container text-center">
@@ -44,7 +44,7 @@
             </div>
 
             <div class="col-md-4">
-                    <img class="img-responsive" src="{{ "/assets/images/logo/Letterhead-Footer.png" | relative_url }}" alt="">
+                <img class="img-responsive" src="{{ "/assets/images/logo/Letterhead-Footer.png" | prepend: site.baseurl }}" alt="">
             </div>
         </div>
 

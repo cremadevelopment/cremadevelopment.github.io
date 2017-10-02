@@ -1,12 +1,10 @@
-version: "3"
+version: '2'
 
 services:
   jekyll:
-    image: jekyll/jekyll
-    command: jekyll serve --watch --force_polling
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose
     ports:
       - 4000:4000
-      - 35729:35729
-      - 3000:3000
     volumes:
       - .:/srv/jekyll
