@@ -4,7 +4,6 @@ Is Docker the new Hyde??? Dun Dun Duhhhhhhh
 
 Once you are up and going with docker, the idea might strike you that not having to maintiain Ruby, Jekyll and other things on your machine could free up some time to create a blog, or atleast a github.io site. With all this free time on your hands of course you do, and your head is full of ideas like becoming one of the first bloggers to really dig deep in the investigation of dotnet core 2 before others can fill in the gaps....
 
-
 ## Creating a site
 
 1. Turn on docker. [you know you've seen the docker error when you are excited so you jump into powershell before you started docker].

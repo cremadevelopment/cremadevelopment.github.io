@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+<section>
+    <div class="container">
+
+        <h1 class="blog-post-title">{{ page.title }}</h1>
+        <ul class="blog-post-info list-inline">
+            <li>
+                <a href="#">
+                    <i class="fa fa-clock-o"></i> 
+                    <span class="font-lato">{{ page.date | date: "%b %-d, %Y" }}</span>
+                </a>
+            </li>
+            <li>
+                <i class="fa fa-tags"></i>
+
+                {% if page.tags %}
+                    {% for tag in page.tags %}
+                        <a class="{{ tag }}" href="#">
+                            <span class="font-lato">{{ tag }}</span>
+                        </a>
+                    {% endfor %}
+                {% else %}
+                <a class="none" href="#">
+                    <span class="font-lato">None</span>
+                </a>
+                {% endif %}
+            </li>
+        </ul>
+
+        <!-- article content -->
+        {{ content }}
+        <!-- /article content -->
+
+        <div class="divider divider-dotted"><!-- divider --></div>
+
+    </div>
+</section>
+<!-- / -->
