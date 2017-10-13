@@ -4,6 +4,8 @@
     <meta name="description" content="" />
     <meta name="Author" content="{{ site.author.name }} [{{ site.author.email }}]" />
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
     <!-- mobile settings -->
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -22,4 +24,8 @@
     <!-- PAGE LEVEL SCRIPTS -->
     <link href="{{ "/assets/css/header-1.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css" />
     <link href="{{ "/assets/css/color_scheme/green.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css" id="color_scheme" />
+
+    {% if site.tags != "" %}
+        {% include collect_tags.html %}
+    {% endif %}
 </head>

@@ -37,7 +37,7 @@ markdown: kramdown
 theme: minima
 
 # Plugins
-gems:
+plugins:
   - jekyll-feed
 
 # Exclude from processing.

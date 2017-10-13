@@ -1,1 +1,1 @@
-docker run --rm --volume=${PWD}:/srv/jekyll -it jekyll/jekyll jekyll build #--watch
+docker run --rm --volume=${PWD}:/srv/jekyll -it jekyll/jekyll:pages jekyll build --watch
