@@ -1,0 +1,43 @@
+<div id="header" class="navbar-toggleable-md sticky  header-md transparent clearfix">
+
+    <!-- TOP NAV -->
+    <header id="topNav">
+        <div class="container"><!-- add .full-container for fullwidth -->
+
+            <!-- Mobile Menu Button -->
+            <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- BUTTONS -->
+            <ul class="float-right nav nav-pills nav-second-main">
+
+
+            </ul>
+            <!-- /BUTTONS -->
+
+            <!-- Logo -->
+            <a class="logo float-left" href="{{ "/index.html" | prepend: site.baseurl }}">
+                <img style="padding: 10px;" src="{{ "/img/Logo_Brown.png" | prepend: site.baseurl }}" alt="" />
+            </a>
+            <div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+                <nav class="nav-main">
+                    <ul id="topMain" class="nav nav-pills nav-main">
+                        <li>
+                            <a href="{{ "/#" | prepend: site.baseurl }}">HOME</a>
+                        </li>
+                        <li>
+                            <a href="{{ "/#about" | prepend: site.baseurl }}">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="{{ "/#services" | prepend: site.baseurl }}">SERVICES</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <!-- /Top Nav -->
+
+</div>
